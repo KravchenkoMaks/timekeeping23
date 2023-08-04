@@ -1,0 +1,12 @@
+body {
+    background-color: gainsboro;
+}
+
+#block1 {
+    height:4em;
+}
+
+#block2, #block3,#block4 {
+    text-align: center;
+}
+

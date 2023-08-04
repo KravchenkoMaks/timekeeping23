@@ -1,0 +1,93 @@
+body{
+    background-color:Gainsboro;
+}
+
+#header{
+    height: 40px;
+    position: fixed;
+    top: 9px;
+    width: 99%;
+    background-color: #616A6B;}
+
+#logo{
+    height: 40px;
+}
+
+#buttonHome{
+    height: 23px;
+    width: 50px;
+    position: fixed;
+    top: 17px;
+    left: 5%;
+}
+
+#buttonLanguage{
+    height: 23px;
+    width: 400px;
+    position: fixed;
+    top: 17px;
+    right: 0px;
+}
+
+#buttonSignIn{
+    height: 23px;
+    width: 60px;
+    position: fixed;
+    top: 17px;
+    right: 150px;
+}
+
+#buttonSignUp{
+    height: 23px;
+    width: 65px;
+    position: fixed;
+    top: 17px;
+    right: 85px;
+}
+
+#buttonLogout{
+    height: 23px;
+    width: 50px;
+    position: fixed;
+    top: 17px;
+    right: 25px;
+}
+
+div#container{
+    display: table;
+    border-spacing: 5px;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
+
+div#containerRow{
+    display: table-row;
+}
+
+#leftPanel {
+    display: table-cell;
+    width: 17%;
+    vertical-align: top;
+    border-right-style: solid;
+    /*border-left-width: thin;*/
+    border-right-color: gray;
+
+}
+
+#rightPanel{
+    display: table-cell;
+}
+
+#tableForm{
+    margin: auto auto;
+}
+
+#login{
+    margin-top: 12%;
+}
+
+#errorLogin{
+    color: red;
+    text-align: center;
+}
